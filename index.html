@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Foto Interaktif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="book">
+        <div class="page" id="page1">
+            <img src="images/photo1.jpg" alt="Foto 1">
+            <button onclick="nextPage(2)">Berikutnya</button>
+        </div>
+        <div class="page" id="page2" style="display: none;">
+            <img src="images/photo2.jpg" alt="Foto 2">
+            <button onclick="prevPage(1)">Sebelumnya</button>
+            <button onclick="nextPage(3)">Berikutnya</button>
+        </div>
+        <div class="page" id="page3" style="display: none;">
+            <img src="images/photo3.jpg" alt="Foto 3">
+            <button onclick="prevPage(2)">Sebelumnya</button>
+            <button onclick="nextPage(1)">Kembali ke Halaman Utama</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
