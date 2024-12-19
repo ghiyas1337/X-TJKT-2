@@ -11,7 +11,7 @@ body {
 .book {
     width: 500px;
     height: 500px;
-    background: red;
+    background: white;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@ body {
 }
 
 img {
-    max-width: 500%;
+    max-width: 300%;
     max-height: 500px;
     border-radius: 15px;
 }
