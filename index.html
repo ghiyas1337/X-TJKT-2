@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buku Foto Interaktif</title>
+    <title>Buku Foto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="book">
         <div class="page" id="page1">
-            <img src="images/photo1.jpg" alt="Foto 1">
+            <img src="https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi1.jpg" alt="Foto 1">
             <button onclick="nextPage(2)">Berikutnya</button>
         </div>
         <div class="page" id="page2" style="display: none;">
-            <img src="images/photo2.jpg" alt="Foto 2">
+            <img src="https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi2.jpg" alt="Foto 2">
             <button onclick="prevPage(1)">Sebelumnya</button>
             <button onclick="nextPage(3)">Berikutnya</button>
         </div>
         <div class="page" id="page3" style="display: none;">
-            <img src="images/photo3.jpg" alt="Foto 3">
+            <img src="https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi3.jpg" alt="Foto 3">
             <button onclick="prevPage(2)">Sebelumnya</button>
-            <button onclick="nextPage(1)">Kembali ke Halaman Utama</button>
+            <button onclick="nextPage(4)">Berikutnya</button>
+        </div>
+ <div class="page" id="page4" style="display: none;">
+            <img src="https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi4.jpg" alt="Foto 4">
+            <button onclick="prevPage(3)">Sebelumnya</button>
+            <button onclick="nextPage(5)">Berikutnya</button>
+</div>
+ <div class="page" id="page5" style="display: none;">
+            <img src="https://raw.githubusercontent.com/Ghiyas1337/photo/refs/heads/main/septi2.jpg" alt="Foto 2">
+            <button onclick="prevPage(4)">Sebelumnya</button>
+            <button onclick="nextPage(1)">ulang</button>
         </div>
     </div>
     <script src="script.js"></script>
